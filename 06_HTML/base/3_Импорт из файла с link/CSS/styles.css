@@ -1,0 +1,48 @@
+h1,h3{
+	color: #1d3879;
+	text-shadow: 2px 2px 4px #000000;
+}
+h2{
+	color: #FFFF04;
+	text-shadow: 4px 4px 5px #000000;
+}
+p{
+	text-align: justify;
+}
+.navigation li a{
+	color: #1d3879;
+	text-shadow: 2px 2px 4px #000000;
+	font-style: italic;
+}
+.menu li a{
+	color: #FFFF04;
+	text-shadow: 4px 4px 5px #000000;
+}
+code{
+	color: #1d3879;
+	text-align: center;
+}
+kbd{
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+#Plot{
+	color: #1d3879;
+	text-shadow: 2px 2px 4px #000000;
+}
+.simpl_link{
+	color: #0446f6;
+	text-shadow: 0px 0px 0px #000000;
+}
+p a{
+	color: #1d3879;
+	text-shadow: 2px 2px 4px #000000;
+}
+hr{
+	color: #b7bcc6;
+	height: 2px;
+	background-color:#b7bcc6;
+}
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HOW-TO: Программа на Python, Часть 2</title>
+	</head>
+	<body>
+		<div>
+			<H1 style="color: #1d3879;text-shadow: 2px 2px 4px #000000">HOW-TO: Программа на Python, Часть 2 <img src="pictures/Icon-Python.png" align="right" alt="Изображение логотипа Python" title="Логотип Python"></H1>
+			<ul style="color: #1d3879;text-shadow: 2px 2px 4px #000000;font-style: italic">
+				<li><a href="Ex_1.html">Программа на Python &mdash; часть 1</a></li>
+				<li><a href="Ex_2.html">Программа на Python &mdash; часть 2</a></li>
+				<li><a href="Ex_3.html">Программа на Python &mdash; часть 3</a></li>
+			</ul>
+		</div>
+		<div>
+			<H2 style="color: #FFFF04;text-shadow: 4px 4px 5px #000000"><a id="Plot">Содержание</a></H2>
+			<H3 style="color: #1d3879;text-shadow: 2px 2px 4px #000000">HOW-TO: Программа на Python, Часть 2</H3>
+			<ul style="color: #FFFF04;text-shadow: 4px 4px 5px #000000">
+				<li><a style="color: #FFFF04;text-shadow: 4px 4px 5px #000000" href="#t1">Списки</a></li>
+				<li><a style="color: #FFFF04;text-shadow: 4px 4px 5px #000000" href="#t2">Комментарии</a></li>
+			</ul>
+			<hr>
+			<p style="text-align: justify">В прошлом уроке мы рассмотрели простую программу, которая использовала raw_input для получения ответа пользователя, простые типы переменных и простой цикл «<strong>for</strong>». В этом уроке мы рассмотрим ещё больше типов переменных и напишем ещё больше программ.</p>
+		</div>
+		<div>
+			<H2 style="color: #FFFF04;text-shadow: 4px 4px 5px #000000"><a id="t1">Списки</a></H2>
+			<p><a style="color: #1d3879;text-shadow: 2px 2px 4px #000000" href="#Plot">К содержанию</a></p>
+			<p style="text-align: justify">Давайте рассмотрим другой тип переменных, который называется <em>списки</em>. В других
+			языках программирования они называются <em>массивами</em>. Если мы обратимся к аналогии с
+			коробками для обуви, то массив (список) представляет собой несколько склеенных друг с другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в другой &mdash;  ножи, в третьей &mdash;  ложки. Посмотрим на простой список&mdash;  список месяцев. Мы запрограммируем его так:
+			<br>
+			<br>
+			<code style="color: #1d3879;text-align: center">months =<br>
+			['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']</code>
+			<br>
+			<br>
+			Чтобы создать список, мы заключили все значения в квадратные скобки ( <strong>'['</strong> и <strong>']'</strong> ). Мы назвали наш список <em>'months'</em>. Чтобы использовать список, мы дадим команду print
+			<strong>months[0]</strong> или <strong>months[1]</strong> (которые выведут на экран <em>'Jan'</em> или <em>'Feb'</em>). Помните: счет начинается с нуля. Чтобы найти длину списка, можно использовать такую функцию:
+			<br>
+			<br>
+			<code style="color: #1d3879;text-align: center">print len(months)</code>
+			<br>
+			<p>которая вернёт 12.</p>
+			<p>Ещё один пример списков &mdash; категории в поваренной книге. Например…
+			<br>
+			<br>
+			<code style="color: #1d3879;text-align: center">categories = ['Main dish','Meat','Fish','Soup','Cookies']</code></p>
+			<p style="text-align: justify">Таким образом, в <strong>categories[0]</strong> хранится <em>'Main dish'</em>, а в <strong>categories[4]</strong> &mdash; <em>'Cookies'</em>. Всё очень просто. Я уверен, вы сможете придумать много других примеров использования
+			списков. </p>
+			<hr>
+		</div>
+		<div>
+			<H2 style="color: #FFFF04;text-shadow: 4px 4px 5px #000000"><a id="t2">Комментарии</a></H2>
+			<p><a style="color: #1d3879;text-shadow: 2px 2px 4px #000000" href="#Plot">К содержанию</a></p>
+			<p style="text-align: justify">Далее, мы должны обсудить комментарии. Комментарии важны по нескольким причинам.
+			Они не только говорят вам или другим людям, что вы пытаетесь делать, но и напомнят
+			вам через полгода, что же вы хотели сделать. Когда вы будете писать много программ,
+			комментарии станут важными. Также при их помощи вы заставите Python игнорировать
+			какие-либо части кода. Чтобы закомментировать строку, поставьте перед ней знак '&num;'.<br>
+			Например:
+			<br>
+			<small>&num;</small>
+			<br>
+			Это комментарий</p>
+			<p style="text-align: justify">Комментарии можно вставлять в любое место в строке, но помните, что Python проигнорирует всё, что идёт после '&num;'</p>
+		</div>
+		<div>
+			<table align="center" border="0" width="100%">
+				<tr>
+					<td><a href="Ex_1.html"><img src="pictures/prev.png" alt="Стрелка назад" title="Вернуться на предыдущую страницу"></a></td>
+					<td align="center"><a href="#Plot"><img src="pictures/home.png"alt="К содержанию" title="Вернуться к содержанию"></a></td>
+					<td align="right"><a href="Ex_3.html"><img src="pictures/next.png" alt="Стрелка вперед" title="Перейти на следующую страницу"></a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
