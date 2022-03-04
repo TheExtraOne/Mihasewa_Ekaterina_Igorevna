@@ -1,2 +1,2 @@
- <style  @import "styles_print.css" print></style>
-<style @import "styles.css" screen></style>
+ @import url("styles_print.css") print;
+ @import url("styles.css") screen;
