@@ -1,0 +1,14 @@
+h1{
+	font-size: 12pt;
+}
+h3{
+	text-decoration: underline;
+}
+header{
+	text-align: right;
+}
+h3,article{
+	font-family: 'Caveat', cursive;
+	text-indent: 5mm;
+	font-size: 15pt;
+}
