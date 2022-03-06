@@ -8,7 +8,7 @@ header{
 	text-align: right;
 }
 h3,article{
-	font-family: 'Caveat', cursive;
+	font-family: 'Caveat', cursive; /*Нужно добавить больше шрифтов, на случай, если этот не установлен*/
 	text-indent: 5mm;
 	font-size: 15pt;
 }
