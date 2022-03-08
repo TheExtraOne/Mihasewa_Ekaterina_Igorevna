@@ -1,0 +1,28 @@
+div{
+	background-image: url("../img/cards.png"); 
+	background-repeat: no-repeat;
+	float: left;
+}
+.card_01{
+	width:140px; height:195px;
+}
+.card_02{
+	background-position:bottom -590px left;
+	width:140px; height:195px;
+	margin-left: -50px;  
+}
+.card_03{
+	background-position:bottom -990px right -140px;
+	width:140px; height:195px;
+	margin-left: -50px;
+}
+.card_04{
+	background-position:bottom -195px right -285px;
+	width:140px; height:195px;
+	margin-left: -50px;
+}
+.card_05{
+	background-position:bottom 5px right -140px;
+	width:140px; height:195px;
+	margin-left: -50px; 
+}

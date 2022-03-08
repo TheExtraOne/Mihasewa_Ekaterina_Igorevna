@@ -1,0 +1,24 @@
+div{
+	background-image: url("../img/cards.png"); 
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+.card_01{
+	width:140px; height:195px; 
+}
+.card_02{
+	background-position:bottom -590px left;
+	width:140px; height:195px; 
+}
+.card_03{
+	background-position:bottom -990px right -140px;
+	width:140px; height:195px; ;
+}
+.card_04{
+	background-position:bottom -195px left -140px;
+	width:145px; height:195px;
+}
+.card_05{
+	background-position:bottom 5px right -140px;
+	width:140px; height:195px; 
+}

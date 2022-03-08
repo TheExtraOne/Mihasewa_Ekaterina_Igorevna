@@ -1,0 +1,17 @@
+.list{
+	width: 350px;
+}
+.external_list{
+	list-style: upper-roman;
+}
+.internal_list{
+	list-style: lower-roman;
+	white-space: nowrap;
+}
+.code{
+	width: 400px;
+	background-color: black;
+	color: green;
+	overflow: auto;
+	max-height: 4em;
+}
