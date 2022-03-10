@@ -1,26 +1,25 @@
 .wrapper{
-	background-color: #DCDCDC;
+	background-color:#E7E3E3;
+	float: left;
+	margin-bottom:5px;
 }
 .navigation{
-	/*width: 15em;*/
-	width: 15%;
+	width: 15em;
+	height: 22em;
 	background-color: #D3D3D3;
 	float: left;
 }
+
 .article{
-	/*margin-bottom: 2em;*/
-	background-color: #A9A9A9;
-}
-.content{
+	width: calc(100% - 15em);
+	min-width: 15em;
+	margin-bottom: 2em;
 	float: left;
-	width: 85%;
-	/*margin-top: 0em;
-	padding-top: 0em;*/
+	background-color: #A9A9A9;
 }
 .downsters{
 	background-color: #D3D3D3;
 	clear: both;
-	margin-top: 10em;
 }
 img{
 	float: right;

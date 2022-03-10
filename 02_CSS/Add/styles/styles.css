@@ -1,0 +1,45 @@
+@media (min-width: 500px){ /*Свойства будут работать лишь для экранов, разрешение которых больше 500 px.
+							Если меньше, то адаптируются и превращаются в строки
+							Второй вариант для адаптации-это совйство flex-wrap:wrap.
+							В этом случае они будут переносится боксами на новую строку*/
+	.wrapper{
+		background-color:#E7E3E3;
+		display: flex;
+		align-items: flex-start;  /*Подрезает рамку под объём содержимого.
+									Может быть flex-end- выравнивание по самому нижнему элементу,
+									flex-center- по середине самого длинного
+									stretch- без подрезаний*/
+	}
+	.content{
+		display: flex;
+		flex: 5;
+		flex-direction: column; /*располагает боксы вертикально стопкой. По умолчанию row горизонтально*/
+		/*justify-content: space-between; т.е. добавление промежутков */
+	}
+}
+.wrapper{
+		background-color:#E7E3E3;
+}
+
+.navigation{
+	background-color:#D3D3D3;
+	flex: 1.3;
+}
+.article_1{
+	background-color:#A9A9A9;
+	margin-bottom:5px; /*Вместо 2em сделала 5px, так аккуратнее выглядит*/
+}
+.article_2{
+	background-color:#A9A9A9;
+}
+.downsters{
+	background-color: #D3D3D3;
+}
+img{
+	float: right;
+}
+.downsters{
+	margin-top:-10px; 
+}
+/*Проблемы: 1)при уменьшении диаметра экрана картинка почты уезжает вниз.
+ 2)flex-basis: 15em; не могу сделать ширину навигации фиксированной*/
