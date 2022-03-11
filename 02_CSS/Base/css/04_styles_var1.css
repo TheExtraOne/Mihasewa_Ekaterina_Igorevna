@@ -5,7 +5,7 @@
 }
 .navigation{
 	width: 15em;
-	height: 22em;
+	height: 15em;
 	background-color: #D3D3D3;
 	float: left;
 }
@@ -13,7 +13,7 @@
 .article{
 	width: calc(100% - 15em);
 	min-width: 15em;
-	margin-bottom: 2em;
+	margin-bottom: .2em;
 	float: left;
 	background-color: #A9A9A9;
 }
@@ -23,4 +23,7 @@
 }
 img{
 	float: right;
+}
+h3,p{
+	margin: 0px;
 }
