@@ -12,7 +12,7 @@
 	}
 	.content{
 		display: flex;
-		flex: 5;
+		flex: calc(100% - 15em);
 		flex-direction: column; /*располагает боксы вертикально стопкой. По умолчанию row горизонтально*/
 		/*justify-content: space-between; т.е. добавление промежутков */
 	}
@@ -23,23 +23,18 @@
 
 .navigation{
 	background-color:#D3D3D3;
-	flex: 1.3;
+	flex: 15em;
 }
-.article_1{
+.article{
 	background-color:#A9A9A9;
-	margin-bottom:5px; /*Вместо 2em сделала 5px, так аккуратнее выглядит*/
-}
-.article_2{
-	background-color:#A9A9A9;
+	margin-bottom: .2em; 
 }
 .downsters{
 	background-color: #D3D3D3;
+	margin-top:-10px;
 }
 img{
 	float: right;
 }
-.downsters{
-	margin-top:-10px; 
-}
-/*Проблемы: 1)при уменьшении диаметра экрана картинка почты уезжает вниз.
- 2)flex-basis: 15em; не могу сделать ширину навигации фиксированной*/
+
+/*Проблемы: 1)при уменьшении диаметра экрана картинка почты уезжает вниз.*/

@@ -8,26 +8,19 @@
 								stretch- без подрезаний*/
 }
 .content{
-	background-color:#A9A9A9;
 	display: flex;
 	flex: calc(100% - 15em);
 	flex-direction: column; /*располагает боксы вертикально стопкой. По умолчанию row горизонтально*/
 	flex-wrap: wrap;
 	/*justify-content: space-between; т.е. добавление промежутков */
 }
-.wrapper{
-		background-color:#E7E3E3;
-}
 .navigation{
 	background-color:#D3D3D3;
 	flex: 15em;
 }
 .article{
-	margin-bottom:2em; 
-}
-hr{
-	color:#E7E3E3;
-	width:100%;
+	margin-bottom:.2em; 
+	background-color:#A9A9A9;
 }
 .downsters{
 	background-color: #D3D3D3;
