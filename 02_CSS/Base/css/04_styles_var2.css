@@ -1,6 +1,5 @@
 .wrapper{
 	background-color:#E7E3E3;
-	/*background-color: #A9A9A9;*/
 }
 .navigation{
 	width: 15em;
@@ -11,8 +10,8 @@
 
 .article{
 	margin-bottom: .2em;
+	margin-left: 15em;
 	background-color: #A9A9A9;
-	height: auto;
 }
 .clear{
 	clear: both;
