@@ -1,0 +1,29 @@
+
+table{
+	width: 70%;
+	border-collapse: collapse;
+}
+td{
+	border-right:2px dotted #7C7C7C;
+	border-bottom:2px dotted #7C7C7C;
+}
+.bottom{
+	margin-top: 10px;
+	text-align: center;
+}
+th{
+ background-color: #615B5C;
+ border-collapse:separate;
+ border-style: solid;
+ border-width: 2px;
+ border-color: #FFFFFF;
+ }
+ tr:nth-child(2n){
+  background-color:#BFBFBF;
+} 
+tr:hover{
+	background-color:#CEA5AD;
+}
+td:first-child{
+	font-weight: bold;
+}

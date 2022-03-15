@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+.content{
+	font-size: 17px;
+	text-indent: 20px;
+}
+.box{
+	width: 70%;
+	padding: 5px;
+	text-align: justify;
+	border-style:solid;
+	border-width: 2px;
+	border-color:#656161;
+	border-radius: 0px 15px 0px 15px;
+}
+.list{
+	list-style: none;
+	padding-left: 0;
+  	margin: 0; 
+}
+.hidden{
+	opacity: 0;
+}
+li::before{
+	content:url(../img/Document.jpg);
+}
+a:link {
+  color: #5E09EF;  
+}
+a:visited {
+  color: #8F29C5;
+}
+li > a:hover > .hidden{
+	opacity: 1;
+}
