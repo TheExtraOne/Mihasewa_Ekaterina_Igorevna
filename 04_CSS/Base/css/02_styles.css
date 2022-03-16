@@ -14,9 +14,7 @@ td{
 th{
  background-color: #615B5C;
  border-collapse:separate;
- border-style: solid;
- border-width: 2px;
- border-color: #FFFFFF;
+ border: 2px solid #FFFFFF;
  }
  tr:nth-child(2n){
   background-color:#BFBFBF;
