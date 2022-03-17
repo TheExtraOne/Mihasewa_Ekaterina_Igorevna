@@ -12,16 +12,16 @@ td {
    	height:12.5%;
 }
 td::before{
-	margin-left: 15px; 
+	margin-left: 15px; /*Корявый костыль margin-left, чтобы расположить цифры по цетру клетки. Если с двузначными получилось, то однозначные выдают*/
 	font-size: 30px;
   	counter-increment: section -1;                
   	content: " " counter(section) " ";   
 }
-tr:nth-child(2n+1)>td:nth-child(2n+1){
+tr:nth-child(2n+1)>td:nth-child(2n+1){ /*В нечетной строке нечетная ячейка*/
  	background-color:#000000;
  	color: #FFFFFF;
 }
-tr:nth-child(2n)>td:nth-child(2n){
+tr:nth-child(2n)>td:nth-child(2n){ /*В четной строке четная ячейка*/
  	background-color:#000000;
  	color: #FFFFFF;
 }
