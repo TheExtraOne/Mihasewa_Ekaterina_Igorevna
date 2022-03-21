@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Files</title>
+		<link rel="stylesheet" href="" type="text/css">  
+	</head>
+	<body>
+		<form id="simple_check" name="simple_check" method="post" action="http://fe.it-academy.by/TestForm.php">
+						<fieldset style="width: 30%; border-radius: 10px">
+							<legend>Проверка пароля</legend>
+							<input type="text" id="PassMain" name="PassMain" required autofocus> <!--По-хорошему, нужно ввести тип данных password, но в примере были видимые цифры-->
+							<label for="PassMain">* Пароль</label>
+							<br>
+							<br>
+							<input type="text" id="PassCheck" name="PassCheck" required="">
+							<label for="PassCheck">* Повторите пароль</label>
+							<br>
+							<br>
+							<button type="submit">Отправить</button>
+						</fieldset>
+		</form>
+		<script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+		  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		  crossorigin="anonymous">
+		 </script>
+		 <script>
+		 	$(document).ready(function($) {
+		 		$("#PassMain").keypress(function(event) {
+		 			$("#PassMain,#PassCheck").css('backgroundColor', 'green');
+		 			var valueM = $("#PassMain").val();
+			 		$("#PassCheck").keypress(function(event) {
+			 			var valueC = $("#PassCheck").val();
+			 			if(valueM !== valueC){
+			 				$("#PassMain,#PassCheck").css('backgroundColor', 'red');
+			 			}
+			 			else{
+			 				$("#PassMain,#PassCheck").css('backgroundColor', 'green');
+			 			}
+			 		});
+			 	});	
+			});
+		 </script>
+	</body>
+</html>
