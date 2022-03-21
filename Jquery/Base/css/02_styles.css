@@ -1,0 +1,28 @@
+.wrapper{
+	margin-left: 20px;
+}
+table{
+	width: 70%;
+	border-collapse: collapse;
+}
+td{
+	border-right:2px dotted #7C7C7C;
+	border-bottom:2px dotted #7C7C7C;
+}
+caption{
+	text-align: center;
+}
+th{
+ background-color: #615B5C;
+ border-collapse:separate;
+ border: 2px solid #FFFFFF;
+ }
+ tr:nth-child(2n){
+  background-color:#BFBFBF;
+} 
+tr:hover{
+	background-color:#CEA5AD;
+}
+td:first-child{
+	font-weight: bold;
+}
