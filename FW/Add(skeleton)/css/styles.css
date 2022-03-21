@@ -1,0 +1,25 @@
+.men{
+	list-style: circle;
+}
+.men>li>a,a[href="#Plot"]{
+	text-decoration: underline;
+}
+p{
+	text-align: justify;
+}
+h1{
+    font-size: 5.2rem;
+}
+h2{
+	font-size: 3rem;
+}
+h3{
+	font-size: 4rem;
+}
+header{
+	margin-bottom: 10px;
+}
+.row{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
