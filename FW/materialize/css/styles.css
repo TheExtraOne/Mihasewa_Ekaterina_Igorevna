@@ -1,7 +1,7 @@
 .dropdown-content{
 	opacity: 1;
 	right: 100%;
-	left: 70%;
+	left: 72%;
 	top: 100%;
 	z-index:1;
 }
@@ -10,15 +10,18 @@ nav{
 }
 nav .brand-logo {
     position: absolute;
-    left: 13%;
+    left: 19%;
     font-size: 3rem;
     padding: 0;
 }
 nav .right{
    	display: block!important;
    	position: absolute;
-    left: 65%;
+    left: 53%;
     padding: 0;
+}
+.right li a, .dropdown-trigger{
+    font-size: 1.2rem;
 }
 
 .parallax-container .parallax img{
@@ -67,3 +70,16 @@ nav .right{
  p{
  	text-align: justify;
  }
+ .page-footer{
+    background-color: #33B698;
+ }
+
+ @media all and (max-width: 1000px){
+    .right li a, .dropdown-trigger{
+        display: none;
+    }
+    nav .brand-logo {
+    left: 50%;
+    }
+   
+}
