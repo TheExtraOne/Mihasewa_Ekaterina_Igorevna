@@ -17,7 +17,7 @@
 							<label for="PassCheck">* Повторите пароль</label>
 							<br>
 							<br>
-							<button type="submit">Отправить</button>
+							<button type="submit" disabled>Отправить</button>
 						</fieldset>
 		</form>
 		<script
@@ -37,6 +37,7 @@
 			 			}
 			 			else{
 			 				$("#PassMain,#PassCheck").css('backgroundColor', 'green');
+			 				$("button").removeAttr('disabled');
 			 			}
 			 		});
 			 	});	
